@@ -1,4 +1,4 @@
-# README
+# README: Diabetes_readmission_Project
 
 ## Dataset information:
 The diabetes data set was collected from 130 US hospitals over almost 10 years (1999-2008). This data set includes 50 different features. The detailed information for each feature can be found [here](https://www.hindawi.com/journals/bmri/2014/781670/tab1/). The data sets can be downloaded [here](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008).
