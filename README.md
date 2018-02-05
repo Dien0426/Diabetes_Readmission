@@ -15,14 +15,14 @@ This project deals with the readmission rate of diabetes patients. When the diab
 - Diabetes\_visualize\_model.ipynb: Python jupyter notebook for visualization and modeling data
                                          
 ## Required libraries to run this project: 
-    1. Numpy
-    2. Pandas
-    3. Matplotlib
-    4. SKlearn
-    5. Seaborn
+1. Numpy
+2. Pandas
+3. Matplotlib
+4. SKlearn
+5. Seaborn
 
 ## Summary/Discussion:
 In this project, I used Logistics Regression, Adaboosted classifier and Random Forest classifier to predict whether a diabetes patient will experience readmission. I used GridSearchCV to tuen hyperparameters on Adaboosted to improve the performance of model.
-    * The performances of all models are very similarly with accuraries ranging from 61% to 64%. The tuned Adaboost and Random Forest have the best performance (~64%). This accuracy level is not very good YET. It requires more work to improve.
-    * Looking at the confusion-matrix, precision, recall and F1-score for each model, I can see that the false negative is very big, which means recall for ‘readmission’ is low. However, they differ quite a lot between models (The readmission Recall of Logistic Regressioin is 39% while that of Random Forest is 52%). Even though this recall is very low and needs to be improved, I think that Random Forest gives us the best performance in terms of both accuracy and readmission recall.  
-    * To improve the performance of model on this data I need to spend more time to find the pattern and optimize the feature selection. I am also thinking about reducing the number of dimensions of features. Improving the parameter tuning process and applying cross validation may also help.
+* The performances of all models are very similarly with accuraries ranging from 61% to 64%. The tuned Adaboost and Random Forest have the best performance (~64%). This accuracy level is not very good YET. It requires more work to improve.
+* Looking at the confusion-matrix, precision, recall and F1-score for each model, I can see that the false negative is very big, which means recall for ‘readmission’ is low. However, they differ quite a lot between models (The readmission Recall of Logistic Regressioin is 39% while that of Random Forest is 52%). Even though this recall is very low and needs to be improved, I think that Random Forest gives us the best performance in terms of both accuracy and readmission recall.  
+* To improve the performance of model on this data I need to spend more time to find the pattern and optimize the feature selection. I am also thinking about reducing the number of dimensions of features. Improving the parameter tuning process and applying cross validation may also help.
